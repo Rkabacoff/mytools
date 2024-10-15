@@ -1,0 +1,17 @@
+Package: mytools
+Title: A set of R utility function for me
+Version: 0.0.0.9000
+Authors@R: 
+    person("Robert", "Kabacoff", , "rkabacoff@wesleyan.edu", role = c("aut", "cre"))
+Description: Fast statistics and graphs using the tidyverse
+License: MIT + file LICENSE
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.3.2
+Imports: 
+    dplyr,
+    ggplot2
+Suggests: 
+    knitr,
+    rmarkdown
+VignetteBuilder: knitr

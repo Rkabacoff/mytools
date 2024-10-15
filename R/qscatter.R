@@ -25,7 +25,6 @@ qscatter <- function(data, x, y){
     geom_smooth(method = "lm",
                 formula = y ~ x,
                 se = FALSE,
-                linetype = "dashed",
                 color = "cornflowerblue") +
     theme_minimal() +
     labs(title = gtitle,
